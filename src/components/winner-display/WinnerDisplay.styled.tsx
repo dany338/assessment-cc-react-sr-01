@@ -7,7 +7,8 @@ export const WinnerDisplayContainer = styled.section(() => ({
     border: `1px solid ${colors.black}`,
     boxShadow: '-2px 3px 10px rgba(0, 0, 0, 0.25)',
     borderRadius: '4px',
-    padding: '17px 28px'
+    padding: '17px 28px',
+    width: '100%',
 }))
 
 export const WinnerText = styled(Typography)(() => ({

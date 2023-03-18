@@ -9,7 +9,7 @@ You will receive an input like the one below:
 
 ```
 [[42, 51, 22, 10,  0],
-[2,  50, 7,  6,   15],
+ [2,  50, 7,  6,   15],
 [4,  36, 8,  30,  20],
 [0,  40, 10, 100, 1]]
 ```
@@ -22,3 +22,4 @@ Based on the input above, you will return the sum of all the indexes to get at t
 // The least costly path to the last item is this:
 // 42 -> 2 -> 4 -> 36 -> 8 -> 7 -> 6 -> 15 -> 20 -> 1
 ```
+// 00 + 10 + 20 + 21 +  22  + 12 + 13 + 14 + 24 + 34

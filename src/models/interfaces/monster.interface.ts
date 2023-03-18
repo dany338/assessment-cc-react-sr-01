@@ -8,3 +8,17 @@ export interface Monster {
   type: string;
   imageUrl: string;
 }
+
+export interface Battle {
+  monster1Id: string;
+  monster2Id: string;
+}
+
+export interface Winner {
+  winner: Monster | null;
+  tie: boolean;
+}
+
+export interface WinnerInvalid {
+  message: string;
+}
